@@ -1,0 +1,16 @@
+-- the beginning of something great
+local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
+-- local Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/refs/heads/master/src/Icons.lua"))()
+
+
+local Luxt = Luxtl.CreateWindow("Wisteria GUI", 5346827108)
+
+-- Tabs
+local tab1 = Luxt:Tab("Player", 10747372167)
+local tab2 = Luxt:Tab("Visuals", 10723346871)
+local tab3 = Luxt:Tab("Entities", 10709761629)
+local tab4 = Luxt:Tab("Extra", 10709782044)
+local tab5 = Luxt:Tab("Entity info", 10723415903)
+local tab6 = Luxt:Tab("Known Issues", 10709782845)
+local tab7 = Luxt:Tab("Update Log", 10723367244)
+
